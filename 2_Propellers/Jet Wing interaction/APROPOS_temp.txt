@@ -1,0 +1,5 @@
+# Staight_Wing                                                                    
+# Operating point sequence...
+# i     t     CL            CD           
+  1  1.000      0.550503      0.219001E-01
+

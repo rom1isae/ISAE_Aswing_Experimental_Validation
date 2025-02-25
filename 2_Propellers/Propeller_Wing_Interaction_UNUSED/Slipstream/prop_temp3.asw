@@ -1,0 +1,62 @@
+#
+#   Flutter test case
+#   Power = 1.0e6
+#   Operating points:  V = 5,10,15,20,25,30,35,40,45,50
+#   BODE analysis for   n=2,  sigma,omega = 0,20
+#   Whirl flutter occurs at about  V = 45
+#      Reverse whirl root goes unstable
+#      Forward whirl root is always stable
+#
+#
+#============
+Name
+Whirl Flutter Test
+End
+#============
+Units
+L 1.0 m
+T 1.0 s
+M 1.0 kg
+End
+#============
+Constant
+# g      rho   a
+  10.0   1.0   340.0
+End
+#============
+Reference
+# Sref   Cref   Bref
+  1.0    1.0    1.0
+#
+# Xmom   Ymom   Zmom
+  0.0    0.0    0.0
+End
+#======================
+Weight
+#  Nbeam  t     Xp   Yp   Zp    Mg    CDA  Vol   Hx       Hy  Hz
+*         1.    1.   1.   1.    10.   1.   1.    1.       1.   1.
+   1      1.0   0.0  0.0  0.0    0.   0.0  0.0  -1000.0   0.   0.
+End
+#======================
+Engine
+# KPeng IEtyp Nbeam t    Xp  Yp  Zp   Tx Ty Tz  F_P  M_P  R    Omg    cdA  cl    CLa   S0     C0     S1     C1     S2     C2     S3     C3
+    1    2     1    0.0  0.  0.  0.25  -1. 0. 0.  1.0  0.0  0.05  6000.0  0.002 0.6   6.0   0.3054 0.3486 0.1552 0.2073 0.0923 0.1379 0.0614 0.0991
+End
+#============
+Ground
+#  Nbeam  t     Kground
+    1     0.0   0
+End
+#============
+Beam 1
+Mounting Beam
+#
+   t          z      chord      x       Xax   dCLdF1
+* 1.0        1.0      1.0        1.0     1.0 1.0
+ 00.0001      00.00      0.150    0.055  0.0  0.07
+0.5           0.5          0.150  0.055  0.0 0.07
+#
+End
+
+
+

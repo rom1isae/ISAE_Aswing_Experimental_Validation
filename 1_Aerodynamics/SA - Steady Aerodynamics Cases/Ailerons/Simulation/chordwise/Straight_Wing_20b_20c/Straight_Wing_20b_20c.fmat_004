@@ -1,0 +1,106 @@
+
+ =======================================================================
+
+ Mass and Inertia tensors in body axes...
+ ...................................................
+
+ For deformed shape, operating point  4  ...
+
+  Mass centroid at (x y z) = (   0.000       0.000       0.000     )  1.0000 	 m
+
+  Apparent mass and inertias for  rho/rhoSL =   1.000    
+
+ Real mass tensor                          App. mass tensor                       (1.0000 	 N-1.0000 	 s^2/1.0000 	)
+ - - - - - - - - - - - - - - - - - - -     - - - - - - - - - - - - - - - - - - - 
+    0.000                                   0.4605E-03   0.3410E-15   0.6586E-02
+                 0.000                                   0.3202E-27   0.4876E-14
+                              0.000                                   0.9418E-01
+
+ Real inertia tensor about xyz = 0,0,0     App. inertia tensor about xyz = 0,0,0  (1.0000 	 N-1.0000 	 s^2/1.0000 	)
+ - - - - - - - - - - - - - - - - - - -     - - - - - - - - - - - - - - - - - - - 
+    0.000        0.000        0.000         0.1821E-01   0.2874E-09  -0.1274E-02
+                 0.000        0.000                      0.1717E-02  -0.7049E-11
+                              0.000                                   0.8906E-04
+
+ Real inertia tensor about mass centroid   App. inertia tensor about mass centroid  
+ - - - - - - - - - - - - - - - - - - -     - - - - - - - - - - - - - - - - - - - 
+    0.000        0.000        0.000         0.1821E-01   0.2874E-09  -0.1274E-02
+                 0.000        0.000                      0.1717E-02  -0.7049E-11
+                              0.000                                   0.8906E-04
+
+ ...................................................
+
+ -----------------------------------------------------------------------
+ Staight_Wing                                                                    
+
+ Mach =   0.0000     1 / sqrt(1-M^2) =   1.0000
+
+ Reference...  chord  c =      0.2540 1.0000 	 m
+               span   b =      1.5240 1.0000 	 m
+               area   S =      0.3871 1.0000 	 m^2
+    dynamic pressure  q =    245.1200 1.0000 	 N/1.0000 	 m^2
+               speed  V =     20.0000 1.0000 	 m/1.0000 	 s
+
+ Moment reference...  x =      0.0000 1.0000 	 m
+                      y =      0.0000 1.0000 	 m
+                      z =      0.0000 1.0000 	 m
+
+ Center of mass  ...  x =      0.0000    Jig c.m. x0 =      0.0000 1.0000 	 m
+                      y =      0.0000             y0 =      0.0000 1.0000 	 m
+                      z =      0.0000             z0 =      0.0000 1.0000 	 m
+
+ Flow angles,rates  in Body Axes
+    V     =    20.00000 1.0000         Wx =     0.0000 deg/1.0
+    alpha =    12.00000 deg            Wy =     0.0000 deg/1.0
+    beta  =     0.00000 deg            Wz =     0.0000 deg/1.0
+
+ Normalized rates  in  Body Axes
+    Wx b/2V =   0.000000
+    Wy c/2V =   0.000000
+    Wz b/2V =   0.000000
+
+ Normalized rates  in: Stability axes, x fwd, z down                     
+     p b/2V =   0.000000
+     q c/2V =   0.000000
+     r b/2V =   0.000000
+
+ Normalized forces in: Stability axes, x fwd, z down                     
+     Fx /qS =  CX =  -0.106143         Mx /qSb =  Cl =   0.043881
+     Fy /qS =  CY =   0.000000         My /qSc =  Cm =  -0.276653
+    -Fz /qS =  CL =   1.127534         Mz /qSb =  Cn =  -0.014034
+
+ Derivatives in: Stability axes, x fwd, z down                     
+
+                        u/V                alpha               beta    
+                  ---------------    ---------------    ---------------
+  x force    |    CXu =  -0.21229    CXa =   0.65959    CXb =  -0.00000
+  y force    |    CYu =  -0.00000    CYa =  -0.00000    CYb =   0.00000
+ -z force    |    CLu =   2.25508    CLa =   1.47139    CLb =  -0.00000
+
+ Roll  x mom.|    Clu =   0.08776    Cla =  -0.22442    Clb =  -0.00000
+ Pitch y mom.|    Cmu =  -0.55331    Cma =  -0.28402    Cmb =  -0.00000
+ Yaw   z mom.|    Cnu =  -0.02807    Cna =   0.01006    Cnb =  -0.00000
+
+                    roll rate  p      pitch rate  q        yaw rate  r 
+                  ---------------    ---------------    ---------------
+  x force    |    CXp =  -0.00675    CXq =  -0.14227    CXr =  -0.05232
+  y force    |    CYp =   0.00000    CYq =  -0.00000    CYr =  -0.00000
+ -z force    |    CLp =   0.46440    CLq =   2.27755    CLr =   0.21247
+
+ Roll  x mom.|    Clp =  -0.24835    Clq =  -0.30615    Clr =   0.28708
+ Pitch y mom.|    Cmp =  -0.11916    Cmq =  -0.53024    Cmr =  -0.05424
+ Yaw   z mom.|    Cnp =  -0.07622    Cnq =  -0.02941    Cnr =  -0.03899
+
+                      dFlap 1     
+                  --------------- 
+
+  x force    |  CXdF1 = -0.001250 
+  y force    |  CYdF1 = -0.000000 
+ -z force    |  CLdF1 = -0.005375 
+
+
+ Roll  x mom.|  CldF1 =  0.002769 
+ Pitch y mom.|  CmdF1 =  0.001276 
+ Yaw   z mom.|  CndF1 = -0.000977 
+
+ =======================================================================

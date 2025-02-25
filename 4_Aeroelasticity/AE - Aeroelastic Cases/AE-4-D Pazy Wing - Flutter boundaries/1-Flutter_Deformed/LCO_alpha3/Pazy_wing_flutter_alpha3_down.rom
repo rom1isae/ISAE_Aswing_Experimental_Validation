@@ -1,0 +1,37 @@
+# Pazy Wing (simplified : constant stiffness properties)                          
+# 
+#   Op.Point  :    3
+# 
+# ======================================================
+#   Mode:    3
+# 
+#   Eigenvalue:    0.705928         176.043      1/s
+# 
+#   Eigenvector...
+# 
+#   Real(x)      Imag(x)
+# 
+# ------------------------------------------------------
+# Control variable influence-matrix row  3
+# 
+#   Real(w*B)    Imag(w*B)
+    0.0000       0.0000      1 / s                 =  d(zdot  3) / d(Flap_01     )
+# 
+# ------------------------------------------------------
+# Output variable dependence-matrix column    3
+# 
+# Real(Cv+Qvl) Imag(Cv+Qvl)
+  -0.13876E-03  0.17655E-03  m            =  d( RZ pos   [ 3] ) / d(z 3)
+   0.22515E-01 -0.11449E-02  deg          =  d( Theta    [ 3] ) / d(z 3)
+# 
+# ======================================================
+#  Output-variable dependence-matrix  D + QVW*B
+#   generated using above modes
+# 
+# 
+# ------------------------------------------------------
+#  Column for forcing variable: Flap_01     
+# 
+# Real(D+QVW*B) Imag(D+QVW*B)
+     0.0000        0.0000      m            =  d( RZ pos   [ 3] ) / d(Flap_01     )
+     0.0000        0.0000      deg          =  d( Theta    [ 3] ) / d(Flap_01     )

@@ -1,0 +1,183 @@
+# [0_3/90]_s                                                                      
+# 
+#   Op.Point  :    2
+# 
+# ======================================================
+#   Mode:    1
+# 
+#   Eigenvalue:    -24.0736         46.3486      1/s
+# 
+#   Eigenvector...
+# 
+#   Real(x)      Imag(x)
+# 
+# ------------------------------------------------------
+# Control variable influence-matrix row  1
+# 
+#   Real(w*B)    Imag(w*B)
+    0.0000       0.0000      1 / s                 =  d(zdot  1) / d(Flap_01     )
+# 
+# ------------------------------------------------------
+# Output variable dependence-matrix column    1
+# 
+# Real(Cv+Qvl) Imag(Cv+Qvl)
+   0.20856E-06  0.13200E-05  m/s^2        =  d( dUx Lacc [ 1] ) / d(z 1)
+   -2.7870      -12.355      m/s^2        =  d( dUy Lacc [ 1] ) / d(z 1)
+  -0.11202E-06 -0.35518E-06  m/s^2        =  d( dUz Lacc [ 1] ) / d(z 1)
+    56.380       2298.1      deg/s^2      =  d( dWx Aacc [ 1] ) / d(z 1)
+  -0.20211E-04  0.29687E-03  deg/s^2      =  d( dWy Aacc [ 1] ) / d(z 1)
+    583.71      -1941.5      deg/s^2      =  d( dWz Aacc [ 1] ) / d(z 1)
+   0.20412E-07 -0.14756E-07  m/s          =  d( UX vel   [ 1] ) / d(z 1)
+  -0.18504      0.15365      m/s          =  d( UY vel   [ 1] ) / d(z 1)
+  -0.50464E-08  0.50381E-08  m/s          =  d( UZ vel   [ 1] ) / d(z 1)
+    38.550      -21.240      deg/s        =  d( Wx rate  [ 1] ) / d(z 1)
+   0.52228E-05 -0.22766E-05  deg/s        =  d( Wy rate  [ 1] ) / d(z 1)
+   -38.141       7.2167      deg/s        =  d( Wz rate  [ 1] ) / d(z 1)
+  -0.43088E-09 -0.21660E-09  m            =  d( RX pos   [ 1] ) / d(z 1)
+   0.42438E-02  0.17880E-02  m            =  d( RY pos   [ 1] ) / d(z 1)
+   0.13014E-09  0.41283E-10  m            =  d( RZ pos   [ 1] ) / d(z 1)
+   0.70112      0.46758      deg          =  d( Phi      [ 1] ) / d(z 1)
+  -0.84777E-07 -0.68650E-07  deg          =  d( Theta    [ 1] ) / d(z 1)
+  -0.45924     -0.58439      deg          =  d( Psi      [ 1] ) / d(z 1)
+# 
+# ======================================================
+#   Mode:    2
+# 
+#   Eigenvalue:    -12.8209         109.840      1/s
+# 
+#   Eigenvector...
+# 
+#   Real(x)      Imag(x)
+# 
+# ------------------------------------------------------
+# Control variable influence-matrix row  2
+# 
+#   Real(w*B)    Imag(w*B)
+    0.0000       0.0000      1 / s                 =  d(zdot  2) / d(Flap_01     )
+# 
+# ------------------------------------------------------
+# Output variable dependence-matrix column    2
+# 
+# Real(Cv+Qvl) Imag(Cv+Qvl)
+  -0.17775E-05 -0.98568E-06  m/s^2        =  d( dUx Lacc [ 1] ) / d(z 2)
+    8.2107       9.0335      m/s^2        =  d( dUy Lacc [ 1] ) / d(z 2)
+  -0.10543E-06  0.18413E-06  m/s^2        =  d( dUz Lacc [ 1] ) / d(z 2)
+   -5849.1      -2664.5      deg/s^2      =  d( dWx Aacc [ 1] ) / d(z 2)
+  -0.10323E-02 -0.32010E-03  deg/s^2      =  d( dWy Aacc [ 1] ) / d(z 2)
+    11299.       1706.8      deg/s^2      =  d( dWz Aacc [ 1] ) / d(z 2)
+  -0.69551E-08  0.16815E-07  m/s          =  d( UX vel   [ 1] ) / d(z 2)
+   0.72464E-01 -0.82405E-01  m/s          =  d( UY vel   [ 1] ) / d(z 2)
+   0.17643E-08  0.75391E-09  m/s          =  d( UZ vel   [ 1] ) / d(z 2)
+   -17.800       55.328      deg/s        =  d( Wx rate  [ 1] ) / d(z 2)
+  -0.17928E-05  0.96074E-05  deg/s        =  d( Wy rate  [ 1] ) / d(z 2)
+    3.4845      -103.27      deg/s        =  d( Wz rate  [ 1] ) / d(z 2)
+   0.15832E-09  0.44840E-10  m            =  d( RX pos   [ 1] ) / d(z 2)
+  -0.81611E-03 -0.56446E-03  m            =  d( RY pos   [ 1] ) / d(z 2)
+   0.49218E-11 -0.16637E-10  m            =  d( RZ pos   [ 1] ) / d(z 2)
+  -0.51561     -0.10187      deg          =  d( Phi      [ 1] ) / d(z 2)
+   0.88171E-07  0.60304E-08  deg          =  d( Theta    [ 1] ) / d(z 2)
+   0.93122     -0.76971E-01  deg          =  d( Psi      [ 1] ) / d(z 2)
+# 
+# ======================================================
+#   Mode:    3
+# 
+#   Eigenvalue:    -15.1272         163.955      1/s
+# 
+#   Eigenvector...
+# 
+#   Real(x)      Imag(x)
+# 
+# ------------------------------------------------------
+# Control variable influence-matrix row  3
+# 
+#   Real(w*B)    Imag(w*B)
+    0.0000       0.0000      1 / s                 =  d(zdot  3) / d(Flap_01     )
+# 
+# ------------------------------------------------------
+# Output variable dependence-matrix column    3
+# 
+# Real(Cv+Qvl) Imag(Cv+Qvl)
+  -0.12160E-05 -0.20857E-05  m/s^2        =  d( dUx Lacc [ 1] ) / d(z 3)
+    17.692       25.318      m/s^2        =  d( dUy Lacc [ 1] ) / d(z 3)
+   0.27837E-06  0.62373E-07  m/s^2        =  d( dUz Lacc [ 1] ) / d(z 3)
+   -6265.6      -13246.      deg/s^2      =  d( dWx Aacc [ 1] ) / d(z 3)
+  -0.38047E-03 -0.11087E-02  deg/s^2      =  d( dWy Aacc [ 1] ) / d(z 3)
+   -4474.6      -2487.0      deg/s^2      =  d( dWz Aacc [ 1] ) / d(z 3)
+  -0.11817E-07  0.84239E-08  m/s          =  d( UX vel   [ 1] ) / d(z 3)
+   0.14282     -0.12075      m/s          =  d( UY vel   [ 1] ) / d(z 3)
+   0.22189E-09 -0.17183E-08  m/s          =  d( UZ vel   [ 1] ) / d(z 3)
+   -76.612       45.284      deg/s        =  d( Wx rate  [ 1] ) / d(z 3)
+  -0.64930E-05  0.29197E-05  deg/s        =  d( Wy rate  [ 1] ) / d(z 3)
+   -12.544       28.449      deg/s        =  d( Wz rate  [ 1] ) / d(z 3)
+   0.57539E-10  0.66768E-10  m            =  d( RX pos   [ 1] ) / d(z 3)
+  -0.80998E-03 -0.79636E-03  m            =  d( RY pos   [ 1] ) / d(z 3)
+  -0.10516E-10 -0.38316E-12  m            =  d( RZ pos   [ 1] ) / d(z 3)
+  -0.31661     -0.43806      deg          =  d( Phi      [ 1] ) / d(z 3)
+   0.21280E-07  0.37639E-07  deg          =  d( Theta    [ 1] ) / d(z 3)
+  -0.17905     -0.59987E-01  deg          =  d( Psi      [ 1] ) / d(z 3)
+# 
+# ======================================================
+#   Mode:    4
+# 
+#   Eigenvalue:    -12.4208         397.054      1/s
+# 
+#   Eigenvector...
+# 
+#   Real(x)      Imag(x)
+# 
+# ------------------------------------------------------
+# Control variable influence-matrix row  4
+# 
+#   Real(w*B)    Imag(w*B)
+    0.0000       0.0000      1 / s                 =  d(zdot  4) / d(Flap_01     )
+# 
+# ------------------------------------------------------
+# Output variable dependence-matrix column    4
+# 
+# Real(Cv+Qvl) Imag(Cv+Qvl)
+  -0.43667E-05  0.30267E-06  m/s^2        =  d( dUx Lacc [ 1] ) / d(z 4)
+    15.626       6.0530      m/s^2        =  d( dUy Lacc [ 1] ) / d(z 4)
+  -0.23733E-05  0.66843E-06  m/s^2        =  d( dUz Lacc [ 1] ) / d(z 4)
+   -38809.       5126.4      deg/s^2      =  d( dWx Aacc [ 1] ) / d(z 4)
+  -0.49847E-02  0.88607E-03  deg/s^2      =  d( dWy Aacc [ 1] ) / d(z 4)
+    32328.      -9478.5      deg/s^2      =  d( dWz Aacc [ 1] ) / d(z 4)
+   0.11095E-08  0.10927E-07  m/s          =  d( UX vel   [ 1] ) / d(z 4)
+   0.14024E-01 -0.39688E-01  m/s          =  d( UY vel   [ 1] ) / d(z 4)
+   0.18686E-08  0.59188E-08  m/s          =  d( UZ vel   [ 1] ) / d(z 4)
+    15.953       97.243      deg/s        =  d( Wx rate  [ 1] ) / d(z 4)
+   0.26218E-05  0.12472E-04  deg/s        =  d( Wy rate  [ 1] ) / d(z 4)
+   -26.393      -80.594      deg/s        =  d( Wz rate  [ 1] ) / d(z 4)
+   0.27407E-10 -0.36517E-11  m            =  d( RX pos   [ 1] ) / d(z 4)
+  -0.10096E-03 -0.32161E-04  m            =  d( RY pos   [ 1] ) / d(z 4)
+   0.14745E-10 -0.51675E-11  m            =  d( RZ pos   [ 1] ) / d(z 4)
+  -0.24342      0.47793E-01  deg          =  d( Phi      [ 1] ) / d(z 4)
+   0.31175E-07 -0.75783E-08  deg          =  d( Theta    [ 1] ) / d(z 4)
+   0.20070     -0.72751E-01  deg          =  d( Psi      [ 1] ) / d(z 4)
+# 
+# ======================================================
+#  Output-variable dependence-matrix  D + QVW*B
+#   generated using above modes
+# 
+# 
+# ------------------------------------------------------
+#  Column for forcing variable: Flap_01     
+# 
+# Real(D+QVW*B) Imag(D+QVW*B)
+     0.0000        0.0000      m/s^2        =  d( dUx Lacc [ 1] ) / d(Flap_01     )
+     0.0000        0.0000      m/s^2        =  d( dUy Lacc [ 1] ) / d(Flap_01     )
+     0.0000        0.0000      m/s^2        =  d( dUz Lacc [ 1] ) / d(Flap_01     )
+     0.0000        0.0000      deg/s^2      =  d( dWx Aacc [ 1] ) / d(Flap_01     )
+     0.0000        0.0000      deg/s^2      =  d( dWy Aacc [ 1] ) / d(Flap_01     )
+     0.0000        0.0000      deg/s^2      =  d( dWz Aacc [ 1] ) / d(Flap_01     )
+     0.0000        0.0000      m/s          =  d( UX vel   [ 1] ) / d(Flap_01     )
+     0.0000        0.0000      m/s          =  d( UY vel   [ 1] ) / d(Flap_01     )
+     0.0000        0.0000      m/s          =  d( UZ vel   [ 1] ) / d(Flap_01     )
+     0.0000        0.0000      deg/s        =  d( Wx rate  [ 1] ) / d(Flap_01     )
+     0.0000        0.0000      deg/s        =  d( Wy rate  [ 1] ) / d(Flap_01     )
+     0.0000        0.0000      deg/s        =  d( Wz rate  [ 1] ) / d(Flap_01     )
+     0.0000        0.0000      m            =  d( RX pos   [ 1] ) / d(Flap_01     )
+     0.0000        0.0000      m            =  d( RY pos   [ 1] ) / d(Flap_01     )
+     0.0000        0.0000      m            =  d( RZ pos   [ 1] ) / d(Flap_01     )
+     0.0000        0.0000      deg          =  d( Phi      [ 1] ) / d(Flap_01     )
+     0.0000        0.0000      deg          =  d( Theta    [ 1] ) / d(Flap_01     )
+     0.0000        0.0000      deg          =  d( Psi      [ 1] ) / d(Flap_01     )
