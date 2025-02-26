@@ -1,0 +1,4 @@
+# Bending Beam 2                                                                  
+# Operating point sequence...
+# i     t     rx pos[ 1]    ry pos[ 1]    rz pos[ 1]   
+  1  1.000     -0.895697E-01 -0.179582     -0.102729    

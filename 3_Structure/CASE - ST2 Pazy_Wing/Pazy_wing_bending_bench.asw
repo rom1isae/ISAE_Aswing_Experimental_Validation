@@ -1,0 +1,54 @@
+#============
+Name
+Pazy Wing (simplified : constant stiffness properties)
+End
+#============
+Units
+L 1.0 m
+T 1.0 s
+F 1.0 N
+End
+#============
+Constant
+#   g    rho_SL     V_sound
+   9.8100      1.23       340.21    
+End
+Sensor
+# KS Nb   t     Xp     Yp     Zp    Vx    Vy    Vz     Ax    Ay    Az
+   1  1   0.55 -0.05   0.55    0   1     0.0   0.0    0.0   0.0   1.0
+   2  1   0.55 0.05   0.55    0   1     0.0   0.0    0.0   0.0   1.0
+End
+#============
+Weight
+# Nbeam       t             Xp         Yp         Zp         Mg     
+*             1.            1.0         1.         1.        9.81
+#  MASS1  
+  1         0.558     0.05        0.558        0.0      1.5
+#  MASS2
+  1         0.558     0.05        0.558        0.0      1.5
+end
+#============
+Reference
+# Sref   Cref   Bref    Xref   Yref   Zref
+   0.055 0.10  0.55   0.0    0.0    0.0
+End
+#============
+Ground
+#  Nbeam  t     Kground
+    1   0.0001    0
+End
+#============
+Beam 1
+Beam
+#
+   t     x       z      y      chord    Xax     EIcc    GJ	   EInn      GKc  	EA 	  GKn    EIcn      EIsn  EIcs    mg       mgcc          mgnn            dCLda     CLmax CLmin
+* 1.0    1.0     1.0    1.0    1.0      1.0     4.4     6.5      3.3E3     0.0       9.6E6     0.0    0.0       0.0    0.0    9.81     9.81          9.81              5.73       1.1    -1.1
+0.0001   0.0     0.0    0.0    0.10     0.5     1.0     1.0      1.0       1.0       1.0       1.0    1.0       1.0    1.0    0.3745    2.1-6    1.1E-4       1.0        1.0     1.0 
+0.55     0.0     0      0.55   0.10     0.5     1.0     1.0      1.0       1.0       1.0       1.0    1.0       1.0    1.0    0.3745    2.1-6    1.1E-4       1.0        1.0     1.0
+#
+ t    Cea    Nea   Cta   Nta   Ccg    Ncg
+* 1.0 0    0.   0   0.0   0    0.0	
+  0.0001  0.5   0.   0.5   0.0   0.5    0.0 
+0.55 0.5   0.   0.5   0.0   0.5    0.0   
+End
+

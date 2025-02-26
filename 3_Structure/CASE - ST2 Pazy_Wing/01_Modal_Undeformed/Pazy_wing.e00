@@ -1,0 +1,10 @@
+# Pazy Wing (simplified : constant stiffness properties)                          
+# Eigen value moduli to be divided by 2pi to get the frequency
+#   Op.Point     Eigenvalue
+       1    0.62197956E-13     28.892273    
+       1   -0.20684362E-12     183.06148    
+       1    0.56783172E-13     272.99011    
+       1    0.24607584E-13     511.19508    
+       1    0.12935405E-13     805.14600    
+       1   -0.17692363E-12     851.54752    
+       1   -0.14789065E-12     996.33366    
