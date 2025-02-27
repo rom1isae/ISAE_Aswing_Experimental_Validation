@@ -116,7 +116,7 @@ case you have reproduced:
 @techreport{jan2023experimental,
   title={Experimental validation of ASWING. Part I: Aerodynamics},
   author={Jan, R}
-}
+} \n
 2 - Propeller Cases
 @techreport{jan2023experimental,
   title={Experimental validation of ASWING. Part II: Propellers},
