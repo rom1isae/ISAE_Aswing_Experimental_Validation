@@ -113,25 +113,28 @@ If you plan to use these validation cases in your work for future
 publications please cite the following technical reports depending on the
 case you have reproduced:
 1 - Aerodynamic cases
+
 @techreport{jan2023experimental,
   title={Experimental validation of ASWING. Part I: Aerodynamics},
-  author={Jan, R}
-}
+  author={Jan, R}} 
+
 2 - Propeller Cases
+
 @techreport{jan2023experimental,
   title={Experimental validation of ASWING. Part II: Propellers},
-  author={Jan, R}
-}
+  author={Jan, R}}
+
 3 - Structure Cases
+
 @techreport{jan2023experimental,
   title={Experimental validation of ASWING. Part III: Structure},
-  author={Jan, R}
-}
+  author={Jan, R}}
+
 4 - Aerodynamic Cases
+
 @techreport{jan2023experimental,
   title={Experimental validation of ASWING. Part IV: Aeroelasticity},
-  author={Jan, R}
-}
+  author={Jan, R}}
 
 
 Acknowledgments  
